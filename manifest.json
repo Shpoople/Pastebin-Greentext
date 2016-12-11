@@ -3,7 +3,6 @@
 "description":"Formats greentext on pastebin and displays it in an easy to read page",
 "version":"1.0.4",
 "manifest_version":2,
-"default_locale": "en",
 "icons": { "16": "icon/16.png",
            "48": "icon/48.png",
           "128": "icon/128.png" },
