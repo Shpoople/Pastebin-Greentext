@@ -1,0 +1,13 @@
+{
+"name":"Pastebin Greentext parser",
+"description":"Formats greentext on pastebin and displays it in an easy to read page",
+"version":"1.0.0",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["http://pastebin.com/*","https://pastebin.com/*"],
+      "js": ["thirdParty/jquery-3.1.1.min.js", "script.js"],
+      "css" : ["style.css"]
+    }
+  ]
+}

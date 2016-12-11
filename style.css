@@ -1,0 +1,125 @@
+.gtFrame {
+	display: none;
+	z-index: 999999;
+	position: absolute;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 10pt;
+	margin: 0;
+	padding: 0;
+	
+	min-height: 100%;
+	width: 100%;
+    
+    top: 0;
+    left: 0;
+}
+.gtFrame .gtTitle {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 24px;
+    text-align: center;
+}
+.gtFrame .right {
+	float: right;
+}
+.gtFrame .hidden {
+	display: none;
+}
+.gtFrame .post {
+    display: table;
+    padding: 8px;
+    margin: 8px;
+    overflow: hidden;
+}
+.gtFrame .spoiler {
+	background: #000;
+	color: #000;
+	padding: 1px;
+}
+.gtFrame .spoiler:hover {
+	color: #fff;
+}
+
+/******************/
+/*****Yotsuba******/
+/******************/
+.yotsuba {
+	background: #ffffee none;
+	color: #800000;
+}
+.yotsuba a {
+	color: #800000 !important;
+	font-weight: bold;
+}
+.yotsuba a:hover {
+	color: red !important;
+}
+.yotsuba .gtAuthor {
+	color: rgb(17, 119, 67);
+	font-weight: bold;
+}
+.yotsuba .post {
+    background-color: #f0e0d6;
+    border: 1px solid #D9BFB7;
+    border-left: none;
+    border-top: none;
+}
+.yotsuba .implying {
+	color: #789922;
+}
+
+/******************/
+/*****Yotsuba B****/
+/******************/
+
+.yotsubab {
+	background: #EEF2FF none;
+    color: #000000;
+}
+.yotsubab a {
+	color: #000000 !important;
+	font-weight: bold;
+}
+.yotsubab a:hover {
+	color: rgb(221, 0, 0) !important;
+}
+.yotsubab .gtAuthor {
+	color: rgb(17, 119, 67);
+	font-weight: bold;
+}
+.yotsubab .post {
+    background-color: #D6DAF0;
+    border: 1px solid #B7C5D9;
+    border-left: none;
+    border-top: none;
+}
+.yotsubab .implying {
+	color: #789922;
+}
+
+/******************/
+/*****Tomorrow*****/
+/******************/
+
+.tomorrow {
+	background: #1d1f21 none;
+	color: #c5c8c6;
+}
+.tomorrow a {
+	color: rgb(129, 162, 190) !important;
+	font-weight: bold;
+}
+.tomorrow a:hover {
+	color: rgb(95, 137, 172) !important;
+}
+.tomorrow .gtAuthor {
+	color: rgb(197, 200, 198);
+	font-weight: bold;
+}
+.tomorrow .post {
+    background-color: #282a2e;
+    border: 1px solid #282a2e;
+}
+.tomorrow .implying {
+	color: #b5bd68;
+}
