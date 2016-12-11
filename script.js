@@ -6,7 +6,7 @@ var gtHtml = "<div class=\"gtFrame yotsuba\">\
 		Last updated <span class=\"gtDate\">date</span>\
 		<div class=\"right\">\
 			[<a href=\"javascript:void();\" id=\"toggleGTHide\">Hide</a>] - \
-			<select id=\"gtStyle\">\
+			<select class=\"gtStyle\">\
 				<option value=\"yotsuba\">Yotsuba</option>\
 				<option value=\"yotsubab\">Yotsuba B</option>\
 				<option value=\"tomorrow\">Tomorrow</option>\
@@ -26,6 +26,8 @@ $( document ).ready(function() {
 	if (localStorage.getItem("gtStyle") != null) {
 		var sysStyle = localStorage.getItem("gtStyle");
 		$(".gtFrame").attr("class", "gtFrame " + sysStyle);
+		
+		$('.gtStyle').val(sysStyle)
 	}
     
     //Grab raw paste
