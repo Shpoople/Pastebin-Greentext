@@ -5,7 +5,7 @@ var gtHtml = "<div class=\"gtFrame yotsuba\">\
 		<span class=\"gtAuthor\">Author</span> \
 		Last updated <span class=\"gtDate\">date</span>\
 		<div class=\"right\">\
-			[<a href=\"javascript:void();\" id=\"toggleGTHide\">Hide</a>] \
+			[<a href=\"javascript:void();\" id=\"toggleGTHide\">Hide</a>] - \
 			<select id=\"gtStyle\">\
 				<option value=\"yotsuba\">Yotsuba</option>\
 				<option value=\"yotsubab\">Yotsuba B</option>\
@@ -19,7 +19,7 @@ var gtHtml = "<div class=\"gtFrame yotsuba\">\
 
 $( document ).ready(function() {
 	//Append required HTML
-    $(".go_right").prepend( "<a href=\"javascript:void();\" class=\"buttonsm\" id=\"toggleGTShow\">>Greentext</a>" );
+    $(".go_right").prepend("<a href=\"javascript:void();\" class=\"buttonsm\" id=\"toggleGTShow\">>Greentext</a>");
     $("body").prepend(gtHtml);
     
     //Check if style prefrence exists on local storage

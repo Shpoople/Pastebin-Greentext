@@ -30,6 +30,7 @@
     padding: 8px;
     margin: 8px;
     overflow: hidden;
+    line-height: 1.25em !important;
 }
 .gtFrame .spoiler {
 	background: #000;
