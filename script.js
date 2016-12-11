@@ -75,7 +75,7 @@ $( document ).ready(function() {
 	});
 	
 	//Function for selecting style
-	$("#gtStyle").change(function() {
+	$(".gtStyle").change(function() {
 		var style = $(this).find(":selected").attr("value");
 		
 		$(".gtFrame").attr("class", "gtFrame " + style);

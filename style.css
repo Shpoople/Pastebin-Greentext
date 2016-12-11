@@ -28,7 +28,7 @@
 .gtFrame .post {
     display: table;
     padding: 8px;
-    margin: 8px;
+    margin: 16px;
     overflow: hidden;
     line-height: 1.25em !important;
 }
