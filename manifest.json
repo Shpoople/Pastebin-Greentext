@@ -1,7 +1,7 @@
 {
 "name":"Pastebin Greentext parser",
 "description":"Formats greentext on pastebin and displays it in an easy to read page",
-"version":"1.0.1",
+"version":"1.0.2",
 "manifest_version":2,
 "content_scripts": [
     {
